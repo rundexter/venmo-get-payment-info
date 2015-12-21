@@ -36,5 +36,6 @@
             "title":"Note"
         }
     ],
+    "icon": "dex-venmo",
     "title": "Venmo Get Payment Info" /* Required.A display name for the module */
 }
