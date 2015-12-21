@@ -4,23 +4,37 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "payment",
+            "title":"Payment ID"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "date_completed",
+            "title":"Date"
+        },
+        {
+            "id": "target_user",
+            "title":"Payee"
+        },
+        {
+            "id": "actor_username",
+            "title":"Payer"
+        },
+        {
+            "id": "amount",
+            "title":"Amount"
+        },
+        {
+            "id": "note",
+            "title":"Note"
         }
-      */
     ],
     "title": "Venmo Get Payment Info" /* Required.A display name for the module */
 }
